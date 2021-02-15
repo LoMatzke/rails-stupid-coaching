@@ -1,0 +1,28 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$moos: #9dab86;
+
+input[type=text] {
+  padding: 10px 20px 10px 0;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+input[type=submit] {
+  padding: 10px 20px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  background-color: $moos;
+}
+
+div {
+  margin: 40px 0 0 20px;
+  background-color: #eae3c8;
+  width: 400px;
+  padding: 40px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border-radius: 4px;
+}
+
